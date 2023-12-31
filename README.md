@@ -1,3 +1,6 @@
 # CriptedText
-cripta il testo seguendo una chiave precisa
-fatto con intelliJ
+Codice di cesare in Java tramite una chiave precisa
+
+# Crediti
+Progetto per la capacita di informatico scout C.N.G.E.I.
+
