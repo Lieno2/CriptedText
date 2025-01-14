@@ -9,7 +9,6 @@ public class Main {
 
         System.out.println();
 
-        // Prompt the user to select an action
         System.out.print("Would you like to encrypt or decrypt? (e/d): ");
         String choice = scanner.nextLine().trim().toLowerCase();
 
@@ -40,7 +39,7 @@ public class Main {
                 System.out.println("Encrypted text: " + encryptedText);
                 break;
 
-            case "d": // Decrypt
+            case "d":
                 System.out.print("Enter text to decrypt: ");
                 String textToDecrypt = scanner.nextLine();
                 System.out.print("Enter the key: ");
@@ -73,7 +72,7 @@ public class Main {
             if (isEncrypt) {
                 result.append((char) (c + key[counter % 10]));
             } else {
-                result.append((char) (c - key[counter % 10])); // Decrypt
+                result.append((char) (c - key[counter % 10]));
             }
             counter++;
         }
